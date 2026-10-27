@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: travel-agent-api
+spec:
+  selector:
+    app: travel-agent-api
+  ports:
+    - port: 80
+      targetPort: 8000
+      name: http
+    - port: 8000
+      targetPort: 8000
+      name: metrics
+  type: ClusterIP

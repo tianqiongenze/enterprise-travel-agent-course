@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: go-policy
+spec:
+  selector:
+    app: go-policy
+  ports:
+    - port: 80
+      targetPort: 8091
+      name: http
+    - port: 8091
+      targetPort: 8091
+      name: metrics
+  type: ClusterIP

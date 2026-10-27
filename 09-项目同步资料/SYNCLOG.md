@@ -1,0 +1,40 @@
+
+## 同步 2026-10-27T08:26:45
+- 来源 commit：d2a0ba1 2026-10-27 docs: LAN manual testing guide — NodePort 30181/30191 entry points, GraphiQL walkthroughs, guard demos, metrics reading, HPA/K6/Locust ops, troubleshooting (all expected values captured live)
+- docs/fourth-round-review-and-refactor-plan.md
+- docs/lan-manual-testing-guide.md
+- docs/expert-review-and-refactoring-roadmap-2026-09.md
+- docs/staging-retest-runbook.md
+- stress/fourth_round_test_report.md
+- stress/staging_retest_report.md
+- data-contracts/graphql/schema.graphql
+- platform/deploy/k8s/a2a-metrics-cronjob.yaml
+- platform/deploy/k8s/a2a-metrics-service.yaml
+- platform/deploy/k8s/deployment.yaml
+- platform/deploy/k8s/go-fanout-deployment.yaml
+- platform/deploy/k8s/go-fanout-hpa.yaml
+- platform/deploy/k8s/go-fanout-pdb.yaml
+- platform/deploy/k8s/go-fanout-service.yaml
+- platform/deploy/k8s/go-policy-deployment.yaml
+- platform/deploy/k8s/go-policy-hpa.yaml
+- platform/deploy/k8s/go-policy-pdb.yaml
+- platform/deploy/k8s/go-policy-service.yaml
+- platform/deploy/k8s/go-ranker-deployment.yaml
+- platform/deploy/k8s/go-ranker-hpa.yaml
+- platform/deploy/k8s/go-ranker-pdb.yaml
+- platform/deploy/k8s/go-ranker-service.yaml
+- platform/deploy/k8s/go-registry-cache-headless-service.yaml
+- platform/deploy/k8s/go-registry-cache-pdb.yaml
+- platform/deploy/k8s/go-registry-cache-rbac.yaml
+- platform/deploy/k8s/go-registry-cache-service.yaml
+- platform/deploy/k8s/go-registry-cache-statefulset.yaml
+- platform/deploy/k8s/hpa.yaml
+- platform/deploy/k8s/ingress.yaml
+- platform/deploy/k8s/k6-fourth-round.yaml
+- platform/deploy/k8s/locust-fourth-round.yaml
+- platform/deploy/k8s/locust-fourth-runner.yaml
+- platform/deploy/k8s/networkpolicy.yaml
+- platform/deploy/k8s/pdb.yaml
+- platform/deploy/k8s/service.yaml
+- platform/deploy/k8s/serviceaccount.yaml
+- platform/deploy/k8s/tls-secret.yaml
